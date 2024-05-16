@@ -72,9 +72,11 @@ let bobbyboy = academyMembers.filter((theName) => {
 });
 console.log(bobbyboy)
 
+
+
 let moviesWithA = academyMembers.filter((movie) => {
 
-    for (let i = 0; i < movie.films.length; i++) {
+    for (let i = 0; i < movie.films.length; i++) { 
 
 
         if (movie.films[i].indexOf("A") === 0) {
